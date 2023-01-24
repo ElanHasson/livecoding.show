@@ -1,10 +1,10 @@
 ###############
 # Build Stage #
 ###############
-FROM klakegg/hugo:ext-ubuntu as builder
+FROM klakegg/hugo:ext-ubuntu
 
-WORKDIR /src
-COPY . /src
+WORKDIR /
+COPY . /
 
 ENV HUGO_ENV=production
 
@@ -34,4 +34,4 @@ RUN hugo --minify --gc --enableGitInfo
 # Final Stage #
 ###############
 
-COPY /src/public /public
+COPY /public /public
