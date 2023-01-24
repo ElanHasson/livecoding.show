@@ -168,11 +168,11 @@ creativeCommons:
   #paginate: 5 # Default to 10.
   #moderation: false # Same as Staticman's moderation.
 
-#giscus:
-  # repo: ""
-  # repoId: ""
-  # category: ""
-  # categoryId: ""
+giscus:
+  repo: "ElanHasson/livecoding.show"
+  repoId: "R_kgDOI1JOLA"
+  category: "Site Discussions"
+  categoryId: "DIC_kwDOI1JOLM4CTxQz"
   # theme: "dark" # Default to auto.
   # mapping: "title" # Default to pathname.
   # inputPosition: "bottom" # Default to top.
@@ -255,9 +255,9 @@ repo:
 topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+    github: ElanHasson
+    patreon: ElanHasson
+    paypal: ElanHasson
 
 #docs:
   # nav:
